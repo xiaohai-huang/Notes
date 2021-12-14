@@ -2,7 +2,7 @@
 
 1. `typeof` - done
 2. 手撕算法: 求一个字符串的最长无重复子串 - done
-3. design pattern
+3. design pattern - https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm
 4. html 页面渲染过程
 5. cookie 是什么
 6. 手写深克隆 deepClone, 要求考虑到对象， 数组， Date， 正则和函数
