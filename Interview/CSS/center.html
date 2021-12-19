@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .box {
+        width: 500px;
+        height: 500px;
+        background-color: aquamarine;
+      }
+      .center-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+      }
+
+      .center-2 {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+      }
+      .center-2 > .box {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .center-3 {
+        width: 100vw;
+        height: 100vh;
+      }
+
+      .center-3 > .box {
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center-1">
+      <div class="box">flex box</div>
+    </div>
+
+    <div class="center-2">
+      <div class="box">pos absolute</div>
+    </div>
+
+    <div class="center-3">
+      <div class="box">margin</div>
+    </div>
+  </body>
+</html>
