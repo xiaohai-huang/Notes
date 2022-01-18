@@ -26,3 +26,8 @@
 1. Storage
 2. Webpack
 3. esmodule and commonjs
+
+2022-1-15
+
+1. ✅Webpack - loader vs plugin
+2. ⬜️ Webpack - tree shaking

@@ -1,5 +1,6 @@
 "use strict";
 const foo = function () {
+  console.log(this);
   console.log(this.a);
 };
 
